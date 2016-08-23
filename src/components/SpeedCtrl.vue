@@ -5,17 +5,14 @@
         <mdl-textfield floating-label="Speed" :value.sync="speed"></mdl-textfield>
       </div>
       <div class="mdl-cell mdl-cell--8-col mdl-cell--3-col-phone">
-        <mdl-slider :value.sync="speed" min="0" max="100" step="5" mdl-vertical></mdl-slider>
+        <mdl-slider :value.sync="speed" min="0" max="100" step="5"></mdl-slider>
       </div>
     </div>
   </div>
 </template>
-
-
 
 <script>
 export default {
   props: ['speed']
 }
 </script>
-
