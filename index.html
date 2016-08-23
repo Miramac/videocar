@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>carcmd</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+      </div>
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        <h3>video car</h3>
+      </div>
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+      </div>
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+        <a href="#controller" class="mdl-layout__tab is-active">Controller</a>
+        <a href="#calibrate" class="mdl-layout__tab">Calibrate</a>
+        <a href="#details" class="mdl-layout__tab">Details</a>
+        <a href="#technology" class="mdl-layout__tab">Technology</a>
+        <a href="#faq" class="mdl-layout__tab">FAQ</a>
+      </div>
+  </header>
+
+  <main class="mdl-layout__content">
+    <div class="page-content" id="app">
+      <car-ctrl></car-ctrl>
+    </div>
+  </main>
+</div>
+   
+  <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+  <script src="dist/build.min.js"></script>
+  </body>
+</html>
